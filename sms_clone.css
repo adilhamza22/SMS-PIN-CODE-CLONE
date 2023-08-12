@@ -1,0 +1,236 @@
+body{
+    background-image: url("gray-bg.jpeg");
+    background-repeat:round;
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+.header{
+    position: relative;
+    height:12vh;
+}
+.logo{
+    position: absolute;
+    left:2vw;
+    background-image: url("smspc.png");
+    background-size: contain;
+    width: 12vw;
+    height: 12vh;
+    background-repeat: no-repeat;
+    display: inline-block;
+    z-index: 0;
+}
+
+.navbar{
+position: absolute;
+display: inline-block;
+right: 0vw;
+z-index: 1;
+color:white;    
+}
+.nav-bar-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    opacity: 0.6;
+    position: absolute;
+    right: 18vw;
+    /* top: 0vh; */
+    width: 30vw;
+    height: 6vh;
+    border-radius: 15px;
+    padding-left: 0px;
+
+
+}
+#home-li{
+    /* text-align: center; */
+    padding: 0.5vw;
+    border-right: 1px solid white;
+}
+#home-li:hover{cursor: pointer;background-color: black;opacity: 0.4;}
+#home-li:last-child{border-right: none;}
+.desc{
+    position: relative;
+    display: flex;
+    height: 32vh;
+}
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 2vw;
+    top: 5vh;
+    line-height: 4vh;
+}
+.text h2{
+    display: inline;
+    font-weight: bold;
+}
+.text h3,h4{
+    display: inline;
+}
+#login-btn , #register-btn{
+    background-color: rgb(189, 39, 64);
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: 6vw;
+    border: solid transparent ;
+    border-radius: 10px;
+}
+.sms-img{
+position: absolute;
+right: 12vw;
+top:2vh;
+width: 18vw;
+height: 28vh;
+background-image: url("Mobile-doodle.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+#sms-pin-code{
+    color:  rgb(189, 39, 64);
+    display: inline;
+}
+.tables{
+    position: relative;
+    width: 100%;
+    height: 45vh;
+}
+.drop-downs{position: absolute;left:2vw;
+
+}
+.dummy-table{
+    position: absolute;
+    right: 0;
+}
+.dummy-table tr{
+    border-bottom: 15px solid  transparent;
+}
+#country-select{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    background-color: gray;
+    opacity: 0.6;
+    color: white;
+    border-radius: 10px;
+    width: 13vw;
+    text-align: center;
+}
+.search{position: absolute;
+    top: 7vh;
+    left: 2vw;
+    background: #999999b5;
+    height: 35vh;
+    /* vertical-align: middle; */
+}
+.search-table{border-collapse: collapse;}
+.search-table tr{background-color: rgb(134, 133, 133);}
+.search-row{
+    /* display: flex;
+    justify-content: center; */
+    position: relative;
+    color: white;
+    border-bottom: 15px solid  transparent;
+}
+#table-text{
+    padding-right: 2vw ;
+}
+#table-btn{
+    border: 1px solid rgb(189, 39, 64); ;
+    padding: 0;
+    border-radius:2px;
+    /* color: rgb(189, 39, 64); ; */
+}
+input{
+    color: rgb(189, 39, 64);
+}
+#search-app-input{height: 2.5vh;
+    background-color: #808080b5;
+    text-align: center;
+}
+#search-app-input::placeholder{color: white;
+}
+/* #table-text{    margin-right: 2vw;} */
+.footer{
+    width: 100%;
+    background-color: gray;
+    opacity: 0.6;
+    color: white;
+    position: absolute;
+    bottom: 0;left: 0;
+    
+}
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+}
+.footer ul #home-li{
+    border-right: none;
+    margin-left: 5vw;
+}
+#footer-right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15vw;
+}
+#right-li{
+    padding: 0vw 2vw;
+}
+.dummy-table{
+    position: absolute;
+    /* right: 15vw; */
+    left: 20vw;
+    width: 78vw;
+    height: 40vh;
+    background-color:  white;
+    border-radius: 6px;
+}
+.table-dummy{
+    width: 100%;
+    background-color: rgba(24, 23, 23, 0.4);
+    z-index: -1;
+}
+.table-dummy tr{
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+.table-dummy th{
+    padding: 2vh 2vw;
+    border-right: none;
+}
+.dummy-heading{
+    background-color: rgb(59, 58, 58);
+    color: white;
+}
+#pak-logo, #fb-logo{
+    width: 2vw;
+    /* height: ; */
+}
+#pak-logo:hover, #fb-logo:hover{cursor: pointer;}
+#copy-btn{
+    background-color: rgb(189, 39, 64);
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: 5vw;
+    border: solid transparent ;
+    border-radius: 15px;
+    
+}
+input:hover{cursor: pointer;
+height:6vh;}
+select:hover{cursor: pointer;}
+datalist:hover{cursor: pointer; }
+option:hover{cursor: pointer;}
+.logo:hover{height: 30vh;}
+#sms-pin-code:hover{
+    color: blue;
+    text-transform:uppercase;
+}
+#right-li:hover{cursor: pointer;background-color: black;opacity: 0.4;}
